@@ -1,11 +1,129 @@
-@import 'tailwindcss';
+﻿@import "tailwindcss";
 
 ActionBar {
-  background-color: #65adf1;
-  color: white;
+    background-color: #aaaaaa;
+    color: #070707;
 }
 
 Page {
-  background: white;
-  color: black;
+    background: #f8fafc;
+    color: #0f172a;
+}
+
+.top-panel {
+    padding: 8 12;
+    background-color: #ffffff;
+    border-bottom-width: 1;
+    border-bottom-color: #e2e8f0;
+}
+
+.filter-block {
+    padding-bottom: 8;
+    border-bottom-width: 1;
+    border-bottom-color: #e2e8f0;
+}
+
+.filter-label {
+    font-weight: bold;
+    margin-top: 8;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 16;
+}
+
+.news-list {
+    margin-top: 4;
+}
+
+.list-item {
+    padding: 10 12;
+    border-bottom-width: 1;
+    border-bottom-color: #e2e8f0;
+}
+
+.recent-item {
+    padding: 8 0;
+    border-bottom-width: 1;
+    border-bottom-color: #e2e8f0;
+}
+
+.item-title {
+    font-weight: bold;
+    font-size: 15;
+}
+
+.item-meta {
+    font-size: 12;
+    color: #64748b;
+}
+
+.item-summary {
+    font-size: 12;
+    color: #475569;
+}
+
+.detail-title {
+    font-weight: bold;
+    font-size: 18;
+}
+
+.detail-image {
+    height: 200;
+    border-radius: 8;
+}
+
+.chevron {
+    font-size: 18;
+    color: #94a3b8;
+    vertical-align: middle;
+}
+
+.card {
+    padding: 16;
+    margin: 8 12;
+    border-radius: 8;
+    background-color: #ffffff;
+}
+
+.full-card {
+    margin: 0;
+    border-radius: 0;
+    min-height: 100%;
+}
+
+.offline {
+    color: #b45309;
+}
+
+.error {
+    color: #b91c1c;
+}
+
+.close-button {
+    background-color: #54bbeb;
+    color: white;
+    border-radius: 16;
+    padding: 2 6;
+    align-items: center;
+    font-size: 12;
+    min-width: 0;
+    height: 28;
+}
+
+.ghost-button {
+    background-color: #54bbeb;
+    color: white;
+    border-radius: 16;
+    padding: 2 6;
+    align-items: center;
+    font-size: 12;
+    min-width: 0;
+    height: 28;
+}
+
+.loading-indicator {
+    width: 28;
+    height: 28;
 }
